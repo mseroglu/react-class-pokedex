@@ -1,0 +1,33 @@
+.game-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+}
+.pokedex{
+    display: grid;
+    place-items: center;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.winner{
+    background-color: green;    
+}
+.loser{
+    background-color: red;
+}
+.winlose{
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 0;
+    max-width: 400px;
+    border-radius: 10px;
+}
+h1{
+    margin: 30px;
+}
